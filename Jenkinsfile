@@ -22,7 +22,7 @@ pipeline {
                 }
             }
             steps {
-                sh "echo Hello"
+                sh 'echo "Hello on main branch"'
             }
         }
 
@@ -33,7 +33,7 @@ pipeline {
                 }
             }
             steps {
-                sh "echo Hello"
+                sh 'echo "Hello on develop branch"'
             }
         }
     }
